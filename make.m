@@ -1,0 +1,1 @@
+mex -g -I.. -I./code -I./code1 -I./code2 main.cpp ./code1/s1.cpp ./code2/s2.cpp
