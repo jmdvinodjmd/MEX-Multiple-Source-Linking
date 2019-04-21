@@ -2,6 +2,11 @@ MEX compilation issue on Octave but works on MATLAB
 ====
 I have multiple C++ files in a project. These compile perfectly on MATLAB but do not compile on Octave. There can be 'n' reasons for this problem but I am discussing one case which could lead to such situation.
 
+Assumption:
+=======
+Both MATLAB and Octave are working with the C++ compiler properly.
+
+
 Issue:
 =======
 In MATLAB you can specify multiple source files using '*.cpp' and that compiles properly but in Octave that does not seem to work and displays the following error:
